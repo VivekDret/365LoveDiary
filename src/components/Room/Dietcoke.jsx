@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "./DietCoke.css";
+import "./Dietcoke.css";
 
 import coke from "../../assets/photos/dietcoke.png";
 
