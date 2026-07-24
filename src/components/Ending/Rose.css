@@ -1,0 +1,72 @@
+.rose{
+    position:absolute;
+    bottom:100px;
+    left:65%;
+
+    width:110px;
+
+    cursor:pointer;
+
+    z-index:50;
+}
+
+.rose-overlay{
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,.7);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    backdrop-filter:blur(8px);
+
+    z-index:999;
+}
+
+.rose-card{
+
+    width:650px;
+    max-width:90vw;
+
+    background:#fffdf8;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.35);
+}
+
+.big-rose{
+
+    width:170px;
+
+    margin-bottom:20px;
+}
+
+.flower-message{
+
+    color:#4d3928;
+
+    font-family:'Cormorant Garamond',serif;
+
+    line-height:1.8;
+
+    font-size:22px;
+}
+
+.flower-message h2{
+
+    margin-bottom:20px;
+}
+
+.flower-message h3{
+
+    margin-top:25px;
+
+    color:#b33b5a;
+}

@@ -1,0 +1,76 @@
+.envelope{
+    position:absolute;
+    bottom:105px;
+    left:70%;
+
+    width:80px;      /* Instead of font-size */
+
+    cursor:pointer;
+    z-index:50;
+}
+    
+    .letter-overlay{
+    
+    position:fixed;
+    
+    inset:0;
+    
+    background:rgba(0,0,0,.75);
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    z-index:999;
+    
+    backdrop-filter:blur(8px);
+    
+    }
+    
+    .letter {
+        position: absolute;
+      
+        top: 100%;          /* lower than the envelope */
+        left: 50%;
+      
+        transform: translate(-50%, -50%);
+      
+        width: min(650px, 70vw);
+        max-height: 90vh;
+      
+        object-fit: contain;
+      
+        z-index: 998;
+      
+        box-shadow: 0 25px 70px rgba(0,0,0,.45);
+      }.letter-container{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+   
+    
+    .popup-letter{
+        position:absolute;
+    
+        width:400px;
+    
+        left:60%;
+        top:25%;          /* Move this between 55%-65% */
+    
+        transform:translateX(-50%);
+    
+        z-index:1;
+    
+        box-shadow:0 20px 60px rgba(0,0,0,.45);
+    }
+    .big-envelope{
+        width:400px;
+        display:block;
+        position:relative;
+        z-index:1;
+    }

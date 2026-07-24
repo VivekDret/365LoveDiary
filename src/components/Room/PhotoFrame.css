@@ -1,0 +1,28 @@
+.photo-frame {
+  position: relative;
+  width: clamp(100px, 11vw, 150px);
+  height: clamp(130px, 14vw, 195px);
+  padding: 10px;
+  background: linear-gradient(145deg, #f5f0e8, #d9cfc0);
+  box-shadow:
+    0 18px 30px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.photo-frame__mat {
+  position: absolute;
+  inset: 10px;
+  background: #faf7f2;
+}
+
+.photo-frame__image {
+  position: absolute;
+  inset: 18px;
+  background:
+    linear-gradient(
+      160deg,
+      color-mix(in srgb, var(--photo-tint, #c4a484) 70%, white) 0%,
+      color-mix(in srgb, var(--photo-tint, #8b7355) 80%, black) 100%
+    );
+  filter: saturate(0.85) contrast(0.95);
+}

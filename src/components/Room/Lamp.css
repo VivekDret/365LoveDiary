@@ -1,0 +1,76 @@
+.lamp-container{
+  position:absolute;
+  left:18%;
+  bottom:180px;
+}
+
+.lamp{
+  position:relative;
+  z-index:2;
+}
+
+.lamp-head{
+  width:70px;
+  height:45px;
+  background:#f2d68a;
+  border-radius:50% 50% 15% 15%;
+}
+
+.lamp-stand{
+  width:8px;
+  height:90px;
+  background:#3d2b1f;
+  margin:auto;
+}
+
+.lamp-base{
+  width:45px;
+  height:12px;
+  background:#3d2b1f;
+  margin:auto;
+  border-radius:10px;
+}
+
+.lamp-glow{
+  position:absolute;
+
+  top:-90px;
+  left:-110px;
+
+  width:300px;
+  height:300px;
+
+  border-radius:50%;
+
+  background:radial-gradient(
+      circle,
+      rgba(255,230,170,.55) 0%,
+      rgba(255,210,120,.28) 45%,
+      transparent 75%
+  );
+
+  filter:blur(35px);
+
+  animation:pulse 4s infinite ease-in-out;
+
+  z-index:1;
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+opacity:.8;
+}
+
+50%{
+transform:scale(1.08);
+opacity:1;
+}
+
+100%{
+transform:scale(1);
+opacity:.8;
+}
+
+}

@@ -1,0 +1,40 @@
+.book-container{
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#15110f;
+}
+
+.page{
+    background:#fdf7ec;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px;
+    font-family:Georgia,serif;
+}
+
+.cover{
+    background:#5a341e;
+    color:white;
+}
+
+.page h1{
+    font-size:42px;
+}
+
+.page h2{
+    margin-bottom:25px;
+}
+
+.page p{
+    font-size:22px;
+    text-align:center;
+    line-height:1.8;
+}

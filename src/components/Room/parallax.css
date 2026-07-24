@@ -1,0 +1,9 @@
+.parallax-layer {
+  transform: translate3d(
+    calc(var(--mouse-x, 0) * var(--parallax-depth, 8) * 1px),
+    calc(var(--mouse-y, 0) * var(--parallax-depth, 8) * 1px),
+    0
+  );
+  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}

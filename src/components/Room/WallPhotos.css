@@ -1,0 +1,14 @@
+.wall-photos-anchor {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+.wall-photos {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(28px, 5vw, 72px);
+  padding: 0 24px;
+}

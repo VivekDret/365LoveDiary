@@ -1,0 +1,71 @@
+.music-player{
+    position:absolute;
+    bottom:155px;
+    left:62%;
+    width:90px;
+    cursor:pointer;
+    z-index:50;
+}
+
+.music-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.75);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    backdrop-filter:blur(8px);
+    z-index:999;
+}
+
+.music-card{
+
+    width:420px;
+
+    background:#2c1d16;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0 25px 70px rgba(0,0,0,.45);
+}
+
+.music-big{
+
+    width:150px;
+
+    margin-bottom:20px;
+}
+
+.music-card button{
+
+    display:block;
+
+    width:100%;
+
+    margin-top:12px;
+
+    padding:14px;
+
+    font-size:17px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:#f4d28a;
+
+    transition:.3s;
+}
+
+.music-card button:hover{
+
+    transform:scale(1.02);
+}

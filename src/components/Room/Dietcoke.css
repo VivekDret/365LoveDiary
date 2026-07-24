@@ -1,0 +1,99 @@
+.coke{
+
+    position:absolute;
+    
+    bottom:108px;
+    
+    left:55%;
+    
+    width:145px;
+    
+    cursor:pointer;
+    
+    z-index:60;
+    }
+    
+    .coke-overlay{
+    
+    position:fixed;
+    
+    inset:0;
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    background:rgba(0,0,0,.72);
+    
+    backdrop-filter:blur(8px);
+    
+    z-index:999;
+    }
+    
+    .coke-card{
+    
+    width:520px;
+    
+    max-width:90vw;
+    
+    background:#fff;
+    
+    padding:35px;
+    
+    border-radius:22px;
+    
+    text-align:center;
+    
+    box-shadow:0 25px 80px rgba(0,0,0,.35);
+    }
+    
+    .big-coke{
+    
+    width:90px;
+    
+    margin-bottom:15px;
+    }
+    
+    .coke-card p{
+    
+    font-size:22px;
+    
+    line-height:1.7;
+    
+    animation:fade .5s;
+    }
+    
+    .coke-card button{
+    
+    margin-top:20px;
+    
+    padding:12px 26px;
+    
+    border:none;
+    
+    border-radius:40px;
+    
+    font-size:17px;
+    
+    cursor:pointer;
+    }
+    
+    @keyframes fade{
+    
+    from{
+    
+    opacity:0;
+    transform:translateY(12px);
+    
+    }
+    
+    to{
+    
+    opacity:1;
+    transform:translateY(0);
+    
+    }
+    
+    }
