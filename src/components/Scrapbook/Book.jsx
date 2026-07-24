@@ -3,7 +3,7 @@ import cover from "../../assets/scrapbook/Cover.png";
 import page1 from "../../assets/scrapbook/P1.png";
 import page2 from "../../assets/scrapbook/P2.png";
 import page3 from "../../assets/scrapbook/P3.png";
-import page4 from "../../assets/scrapbook/P4.png";
+import page4 from "../../assets/scrapbook/p4.png";
 import page5 from "../../assets/scrapbook/P5.png";
 import page6 from "../../assets/scrapbook/P6.png";
 import page7 from "../../assets/scrapbook/P7.png";
